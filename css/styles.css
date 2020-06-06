@@ -1,0 +1,165 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h3{
+    font-weight: bold;
+}
+h2{
+    font-family: "Montserrat";
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+#title{
+    background-color: #ff4c68;
+    padding-bottom: 5%;
+}
+.header{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    margin-bottom: 40px;
+    margin-top: 30px;
+    color: white;
+}
+.container-fluid{
+    padding: 3% 15%;
+}
+.img-phone{
+    transform: rotate(30deg);
+    width: 60%;
+    position: absolute;
+    right: 25%;
+}
+@media (max-width : 1030px){
+    .img-phone{
+        position: static;
+        transform: rotate(0deg);
+        margin-top: 20px;
+    }
+    #title{
+        text-align: center;
+    }
+}
+
+.Download-btn{
+    margin-right: 20px;
+}
+.tindog{
+    font-size: 2.25rem;
+    font-family: 'Ubuntu', sans-serif;
+}
+.nav-link {
+    margin: auto 18px;
+    font-size: 1.2rem;
+    font-weight: 450;
+}
+.navbar{
+    padding-left: 0;
+    padding-bottom: 70px;
+}
+#features .container-fluid{
+    margin: 60px auto;
+    text-align: center;
+}
+.features-icon{
+    width: 20px;
+}
+.fa-heart, .fa-check-circle, .fa-bullseye{
+    color: #EE8272;
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+.fa-heart:hover{
+    color: #ff4c68;
+}
+.fa-bullseye:hover{
+    color: #ff4c68;
+}
+.fa-check-circle:hover{
+    color: #ff4c68;
+}
+
+#features p{
+    color: #8f8f8f;
+}
+#features .container-fluid div{
+    padding: 60px;
+}
+
+#testimonials{
+    text-align: center;
+    background-color:#EE8272 ;
+    color: white;
+}
+
+.testimonial-image{
+    width: 70px;
+    border-radius: 100%;
+    margin: 15px;
+}
+#press{
+    background-color:#EE8272;
+    padding: 3% 10%;
+    text-align: center;
+}
+.press-img{
+    width: 15%;
+    margin: 20px;
+}
+.carousel-item{
+    padding: 5% 18%;
+}
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+.pricing-col{
+    padding: 3% 2%;
+}
+#features{
+    background-color: white;
+    position: relative;
+    padding: 3% 7%;
+    
+}
+#cta{
+    background-color: #ff4c68 ;
+    height: 500px;
+    width: 100%;
+    text-align: center;
+}
+#cta h3{
+    padding-top: 80px;
+    padding-bottom: 50px;
+    margin: 0px auto;
+    font-size: 3rem;
+    font-weight: bolder;
+    color: white;
+    width: 900px;
+}
+@media (max-width: 1030px){
+    #cta h3{
+        padding-top: 80px;
+        padding-bottom: 50px;
+        margin: 0px auto;
+        font-size: 2.5rem;
+        font-weight: bolder;
+        color: white;
+        width: 400px;
+    }
+}
+#footer{
+    height: 150px;
+    width: 100%;
+    padding-top: 60px;
+    text-align: center;
+}
+#footer i{
+    margin-right: 15px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
